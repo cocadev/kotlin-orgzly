@@ -1,0 +1,92 @@
+Bienvenue dans Orgzly!
+
+* Notes
+** Cliquez sur la note pour l’ouvrir
+** Cliquez et restez appuyé·e sur la note pour la sélectionner
+
+Vous pouvez sélectionner plusieurs notes.
+
+** Appuyez et glissez rapidement une note vers la droite pour ouvrir son menu rapide
+
+** Appuyez et glissez rapidement vers la gauche pour ouvrir un menu différent.
+
+** Ouvrez une note qui contient des sous-notes en cliquant sur l'icône voisine
+
+Long-click the icon to unfold entire subtree.
+
+*** Il n’y a pas de limite au nombre de niveaux que vous pouvez avoir
+**** Utilisez ceci pour mieux organiser vos notes
+
+** Les notes peuvent avoir des étiquettes :tag1:tag2:
+*** Les sous-notes héritent des étiquettes parentes :tag3:
+
+Si vous recherchez des notes avec le tag “tag1” en utilisant la requête “t.tag1”, cette note sera incluse dans les résultats de recherche.
+
+** TODO Les notes peuvent avoir un état
+
+Vous pouvez configurer tous les états que vous souhaitez : TODO, NEXT, DONE, etc.
+
+*** Il y a deux /types/ d'état : à faire et terminé
+
+*** DONE C'est une note avec un type d'état /fait/
+CLOSED: [2018-01-24 Mer 17:00]
+
+** La note peut avoir une date de début programmée
+SCHEDULED: <2015-02-20 Ven 15:15>
+
+*** L'horaire peut avoir un répetiteur
+SCHEDULED: <2015-02-16 Mon .+2d>
+
+** Vous pouvez également définir une échéance
+DEADLINE: <2015-02-20 Fri>
+
+** Les rappels pour les dates planifiées ou d'échéances sont supportés
+
+Ils sont désactivés par défaut et doivent être activés dans les paramètres.
+
+** [#A] Les notes peuvent avoir une priorité
+
+Vous pouvez modifier le nombre de priorités dans les paramètres. Vous pouvez également changer la priorité par défaut - la priorité assumée lorsqu'elle n'est pas définie.
+
+** Les notes peuvent inclure des liens
+
+Composer un numéro de téléphone (tel:555-0199), envoyer un SMS (sms:555-0199), écrire un courriel (mailto:support@orgzly.com) ou visiter une page web ([[http://www.orgzly.com][Orgzly.com]]).
+
+Vous pouvez également lier une autre note ou un autre bloc-note de l'application.
+
+Voir http://www.orgzly.com/help#links pour de plus amples informations (en anglais).
+
+** Le formatage de base est supporté
+
+Vous pouvez mettre les mots en *gras*, /italique/, _souligné_, =verbatim=, ~en code~ ou les +biffer+.
+
+** Liste de cases à cocher
+
+- [X] Tâche 1
+- [X] Tâche 2
+- [X] Tâche 3
+
+Un appui sur la case à cocher change son état. Un retour à la ligne crée une nouvelle case à cocher.
+
+* Recherche
+** Il y a beaucoup d’opérateurs de recherche supportés
+
+Vous pouvez rechercher des notes par état, étiquette, planification, échéance, etc.
+
+Voir http://www.orgzly.com/help#search pour en savoir plus.
+
+** Les recherches peuvent être enregistrées pour un accès rapide
+
+Essayez les exemples de recherche du menu et notez les requêtes qu’elles utilisent.
+
+Vous pouvez créer vos propres recherches enregistrées en cliquant sur « Recherche » dans le menu de navigation.
+
+* Synchronisation
+
+** Les bloc-notes peuvent être enregistrés comme de simples fichiers de texte
+
+Les fichiers suivent les règles de formatage « Org mode ».
+
+** Emplacements des dépôts
+
+Vous pouvez garder les bloc-notes synchronisés avec un dossier de votre appareil, sur une carte mémoire SD ou avec Dropbox.

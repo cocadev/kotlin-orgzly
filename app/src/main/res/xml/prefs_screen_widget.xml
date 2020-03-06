@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/widget">
+
+    <ListPreference
+        android:key="@string/pref_key_widget_color_scheme"
+        android:title="@string/color_scheme"
+        android:entries="@array/color_scheme"
+        android:entryValues="@array/color_scheme_values"
+        android:defaultValue="@string/pref_default_color_scheme"
+        app:useSimpleSummaryProvider="true" />
+
+    <com.orgzly.android.prefs.IntegerPreference
+        android:key="@string/pref_key_widget_opacity"
+        android:title="@string/background_opacity"
+        android:inputType="numberSigned"
+        android:selectAllOnFocus="true"
+        android:defaultValue="@string/pref_default_widget_opacity"
+        app:min="0"
+        app:max="100" />
+
+    <ListPreference
+        android:key="@string/pref_key_widget_font_size"
+        android:title="@string/font_size"
+        android:entries="@array/widget_font_sizes"
+        android:entryValues="@array/widget_font_sizes_values"
+        android:defaultValue="@string/pref_default_widget_font_size"
+        app:useSimpleSummaryProvider="true" />
+
+    <SwitchPreference
+        android:key="@string/pref_key_widget_display_checkmarks"
+        android:title="@string/display_checkmarks"
+        android:summary="@string/display_checkmarks_summary"
+        android:defaultValue="@bool/pref_default_widget_display_checkmarks" />
+
+    <ListPreference
+        android:key="@string/pref_key_widget_update_frequency"
+        android:title="@string/update_frequency"
+        android:entries="@array/widget_update_frequency"
+        android:entryValues="@array/widget_update_frequency_values"
+        android:defaultValue="@string/pref_default_widget_update_frequency"
+        app:useSimpleSummaryProvider="true" />
+
+    <SwitchPreference
+        android:key="@string/pref_key_widget_display_book_name"
+        android:title="@string/display_notebook_name"
+        android:defaultValue="@bool/pref_default_widget_display_book_name" />
+
+</androidx.preference.PreferenceScreen>

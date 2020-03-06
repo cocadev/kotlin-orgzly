@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/screen_edge"
+            android:paddingBottom="@dimen/screen_edge">
+
+            <TextView
+                android:id="@+id/dialog_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="@id/type_picker"
+                app:layout_constraintRight_toRightOf="@+id/unit_picker"
+                tools:text="@string/repeater_description"
+                android:gravity="center"
+                android:lines="2" />
+
+            <NumberPicker
+                android:id="@+id/type_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toStartOf="@+id/value_picker"
+                app:layout_constraintTop_toTopOf="@+id/value_picker"
+                android:layout_marginEnd="@dimen/space_between_content_areas"
+                android:layout_marginRight="@dimen/space_between_content_areas" />
+
+            <NumberPicker
+                android:id="@+id/value_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/dialog_description"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="@dimen/space_between_content_areas"/>
+
+            <NumberPicker
+                android:id="@+id/unit_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@+id/value_picker"
+                app:layout_constraintStart_toEndOf="@+id/value_picker"
+                android:layout_marginStart="@dimen/space_between_content_areas"
+                android:layout_marginLeft="@dimen/space_between_content_areas" />
+
+            <!-- lines=2 added to avoid layout change on different length descriptions -->
+            <TextView
+                android:id="@+id/type_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/value_picker"
+                app:layout_constraintLeft_toLeftOf="@id/type_picker"
+                app:layout_constraintRight_toRightOf="@+id/unit_picker"
+                android:layout_marginTop="@dimen/space_between_content_areas"
+                tools:text="@string/repeater_description_cumulate"
+                android:gravity="center"
+                android:lines="2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</layout>

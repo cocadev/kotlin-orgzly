@@ -1,0 +1,92 @@
+Benvenuto su Orgzly!
+
+* Note
+** Clicca sulla nota per aprirla
+** Tieni premuta la nota per selezionarla
+
+Puoi selezionare più note.
+
+** Tieni premuto e muovi velocemente a destra per aprire il suo menu rapido
+
+Fling it left to open a different menu.
+
+** Apri una nota che contiene sotto-note premendo sull'icona vicina ad essa
+
+Long-click the icon to unfold entire subtree.
+
+** Non ci sono limiti al numero di livelli che puoi avere
+**** Usalo per meglio organizzare le tue note
+
+*** Ora puoi avere anche le etichette :tag1:tag2:
+*** La sotto-nota eredita l'etichetta :tag3:
+
+If you search for notes with tag “tag1” using “t.tag1” query, this note will be included in search results.
+
+** DAFARE La nota può avere uno stato
+
+Puoi configurare un qualsiasi numero di stati da usare: DAFARE, PROSSIMO, FATTO, ecc.
+
+*** Ci sono due /tipi/ di stati: da-fare e completato
+
+*** COMPLETATO Questa è una nota con il tipo di stato /completato/
+CLOSED: [2018-01-24 Mer 17:00]
+
+** La nota può avere un orario programmato
+SCHEDULED: <2015-02-20 Ven 15:15>
+
+*** Gli orari possono avere una ripetizione
+SCHEDULED: <2015-02-16 Mon .+2d>
+
+** Puoi anche stabilire una scadenza
+DEADLINE: <2015-02-20 Ven>
+
+** Reminders for scheduled and deadline times are supported
+
+Sono disabilitati di default e devono essere abilitati nelle impostazioni.
+
+** [#A] Le note possono avere una priorità
+
+È possibile modificare il numero di priorità nelle impostazioni. Puoi anche cambiare la priorità predefinita - la proprietà impostata per le note in cui non viene specificata.
+
+** Le note possono includere link
+
+Dial a phone number (tel:555-0199), send SMS (sms:555-0199), compose email (mailto:support@orgzly.com) or visit a webpage ([[http://www.orgzly.com][Orgzly.com]]).
+
+You can also link to another note or notebook within the app.
+
+See http://www.orgzly.com/help#links for more information.
+
+** Sono supportati i livelli di formattazione base
+
+Puoi usare parole in *grassetto*, /corsivo/, _sottolineato_, =scandito=, ~tipo codice~ e +barrato+.
+
+** E' disponile l'elenco con caselle da spuntare
+
+- [X] Attività 1
+- [ ] Attività 2
+- [ ] Attività 3
+
+Fare clic sulla casella per attivarlo. Premere il pulsante nuova riga alla fine della linea per creare un nuovo elemento.
+
+* Cerca
+** Sono supportati molti diversi operatori di ricerca
+
+Puoi cercare nelle note a seconda dello stato, dell'etichetta, della programmazione o della scadenza ecc.
+
+Vai su http://www.orgzly.com/help#search per saperne di più.
+
+** Le stringhe di ricerca possono essere salvate per un rapido accesso
+
+Prova a fare ricerche semplici dal cassetto di navigazione e nota quali stringhe usino.
+
+Puoi creare le proprie ricerche salvate premendo su "Ricerche" nel menu di navigazione.
+
+* Sincronizzazione
+
+** I taccuini possono essere salvati come file di testo
+
+I file sono nel formato usato da "Org mode".
+
+** Tipo di localizzazione (deposito)
+
+Puoi tenere sincronizzati i taccuini sul tuo dispositivo mobile in una directory, su di una scheda di memoria o su Dropbox.

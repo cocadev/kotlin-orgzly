@@ -1,0 +1,92 @@
+Welkom bij Orgzly!
+
+* Notities
+** Klik op de notitie om haar te openen
+** Klik en houd ingedrukt om de notitie te selecteren
+
+Je kunt meerdere notities selecteren.
+
+** Veeg de notitie naar rechts om haar snelmenu te openen
+
+Veeg het naar links om een ander menu te openen.
+
+** Vouw een notitie met subnotities door op het icoon ernaast te klikken
+
+Lang klikken op het pictogram om volledig te ontvouwen.
+
+*** Er is geen limiet op het aantal niveaus dat je kunt hebben
+**** Gebruik dit om je notities beter te organiseren
+
+** Een notitie kan labels hebben :label1:label2:
+*** Subnotities erven deze labels :label3:
+
+Als u notities zoekt met tag "tag1" met "t.tag1" zoekopdracht, zal deze notitie worden opgenomen in zoekresultaten.
+
+** TODO Een notitie kan een status hebben
+
+Je kunt zo veel statussen configureren als je wilt: TODO, NEXT, DONE, etc.
+
+*** Er zijn twee /types/ van statussen: to-do en done
+
+*** DONE Dit is een notitie met een /done/ type status
+CLOSED: [2018-01-24 Wed 17:00]
+
+** Notitie kan een geplande tijd hebben
+SCHEDULED: <2015-02-20 Fri 15:15>
+
+*** Tijden kunnen een herhaler hebben
+SCHEDULED: <2015-02-16 Mon .+2d>
+
+** Je kunt ook een deadlinetijd instellen
+DEADLINE: <2015-02-20 Fri>
+
+** Herinneringen aan geplande en deadline tijdstippen zijn ondersteund
+
+Ze zijn standaard uitgeschakeld en moeten in Instellingen worden ingeschakeld.
+
+** [#A] Een notitie kan een prioriteit hebben
+
+U kunt het aantal prioriteiten in Instellingen wijzigen. U kunt ook de standaard prioriteit - aangenomen prioriteit wijzigen voor notities zonder één set.
+
+** Een notitie kan links gebruiken
+
+Bel een telefoonnummer (tel:555-0199), stuur een SMS (sms:555-0199), stel een e-mail op (mailto:support@orgzly.com) of bezoek een webpagina ([[http://www.orgzly.com][Orgzly.com]]).
+
+U kunt ook naar een andere notitie of notebook binnen de app linken.
+
+Zie http://www.orgzly.com/help#links voor meer informatie.
+
+** Typografische basisaccentuering wordt ondersteund
+
+Je kunt worden *dikgedrukt*, /schuin/, _onderstreept_, =verbato=, ~code~ en +doorgestreept+ maken.
+
+** Checkbox lijst is beschikbaar
+
+- [X] Taak 1
+- [ ] Taak 2
+- [ ] Taak 3
+
+Klik op de checkbox om het aan te vinken. Druk op de nieuwe-lijnknop aan het einde van de regel om een nieuw item aan te maken.
+
+* Zoeken
+** Er worden veel zoekoperatoren ondersteund
+
+Je kunt notities doorzoeken op status, label, geplande- of deadlinetijd etc.
+
+Zie http://www.orgzly.com/help#search voor meer informatie.
+
+** Zoekopdrachten kunnen worden opgeslagen voor snelle toegang
+
+Probeer voorbeeldzoekopdrachten vanuit de navigatie lade en let op de zoekopdrachten die ze gebruiken.
+
+Je kunt je eigen opgeslagen zoekopdrachten maken door te klikken op "Zoeken" in de navigatie-lade.
+
+* Synchroniseren
+
+** Notebooks kunnen worden opgeslagen als platte-tekst bestanden
+
+Bestanden zijn in de indeling die wordt gebruikt door "Org-mode".
+
+** Soort locatie (archief)
+
+Je kunt je notitieboeken synchroniseren met een map op uw mobiele apparaat, SD-kaart of Dropbox.

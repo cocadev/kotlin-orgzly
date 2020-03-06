@@ -1,0 +1,92 @@
+Selamat datang di Orgzly!
+
+* Catatan
+** Click on the note to open it
+** Click and hold the note to select it
+
+Anda dapat membuat beberapa catatan.
+
+** Fling note right to open its quick-menu
+
+Fling it left to open a different menu.
+
+** Lipat catatan yang berisi sub-catatan dengan mengklik ikon di sebelahnya
+
+Long-click the icon to unfold entire subtree.
+
+*** Tidak ada batas jumlah level yang bisa anda miliki
+**** Gunakan ini untuk mengatur catatan anda dengan lebih baik
+
+** Catatan harus ada tag :tag1:tag2:
+*** Sub-catatan mewarisi tag :tag3:
+
+If you search for notes with tag “tag1” using “t.tag1” query, this note will be included in search results.
+
+** Catatan TODO harus memiliki status
+
+Anda dapat mengkonfigurasi sejumlah bagian negara untuk menggunakan: TODO, NEXT, DONE, dll.
+
+*** Ada dua /tipe/ status: to-do dan selesai
+
+*** DONE Ini adalah catatan dengan tipe status /selesai/
+CLOSED: [2018-01-24 Wed 17:00]
+
+** Catatan harus memiliki jadwal waktu
+SCHEDULED: <2015-02-20 Fri 15:15>
+
+*** Waktu bisa memiliki pengulang
+SCHEDULED: <2015-02-16 Mon .+2d>
+
+** Anda juga bisa menetapkan tanggal waktu
+DEADLINE: <2015-02-20 Fri>
+
+** Pengingat jadwal dan deadline juga didukung
+
+They are disabled by default and need to be enabled in Settings.
+
+** [#A] Note can have a priority
+
+You can change the number of priorities in Settings. You can also change default priority - assumed priority for notes without one set.
+
+** Note can include links
+
+Dial a phone number (tel:555-0199), send SMS (sms:555-0199), compose email (mailto:support@orgzly.com) or visit a webpage ([[http://www.orgzly.com][Orgzly.com]]).
+
+You can also link to another note or notebook within the app.
+
+See http://www.orgzly.com/help#links for more information.
+
+** Dasar tekanan typografi di dukung
+
+Kamu bisa membuat kata *tebal*, /miring/, _bergaris bawah_, =verbatim=, ~kode~ dan +dicoret+.
+
+** Checkbox list is available
+
+- [X] Task 1
+- [ ] Task 2
+- [ ] Task 3
+
+Click the checkbox to toggle it. Press new-line button at the end of the line to create a new item.
+
+* Pencarian
+Ada banyak operator pencarian yang didukung
+
+Anda dapat mencari catatan menurut negara, tag, jadal atau tanggal waktu dll.
+
+See http://www.orgzly.com/help#search to learn more.
+
+pertanyaan penelusuran dapat disimpan untuk akses cepat
+
+Cobalah contoh penelusuran dari laci navigasi dan catat pertanyaan yang mereka gunakan.
+
+Anda dapat membuat pencarian tersimpan Anda sendiri dengan menekan "Searches" di laci navigasi.
+
+* Sinkronisasi
+
+** Notebook dapat disimpan sebagai file teks biasa
+
+File dalam format yang digunakan oleh"Org mode".
+
+** Jenis lokasi (repositori)
+
+Anda dapat menyimpan buku catatan dengan disinkronkan dengan sebuah direktori pada perangkat mobile Anda, kartu SD atau Dropbox.

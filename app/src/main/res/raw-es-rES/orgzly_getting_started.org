@@ -1,0 +1,92 @@
+¡Bienvenido a Orgzly!
+
+* Notas
+** Haga clic en la nota para abrirla
+** Haga clic y mantenga la nota para seleccionarla
+
+Se pueden seleccionar múltiples notas.
+
+** Arrastre la nota a la derecha para abrir su menú rápido
+
+Arrastre a la izquierda para abrir un menú diferente.
+
+** Plegar una nota que contiene subnotas haciendo clic en el icono a su lado
+
+Haga clic largo en el icono para desplegar subárbol completo.
+
+*** No hay límite en el número de niveles que se pueden tener
+**** Utilice esto para organizar mejor sus notas
+
+** Una nota puede tener etiquetas :tag1:tag2:
+*** Las subnotas heredan las etiquetas :tag3:
+
+Si busca por notas con la etiqueta "etiqueta1" usando la búsqueda "t.etiqueta1", esta nota se incluirá en los resultados de búsqueda.
+
+** TODO Una nota puede tener un estado
+
+Puede configurar cualquier número de estados a utilizar: TODO, NEXT, DONE, etc.
+
+*** Hay dos /tipos/ de estados: to-do y done
+
+*** DONE Esta es una nota con el tipo de estado /done/
+CLOSED: [2018-01-24 Wed 17:00]
+
+** Una nota puede tener un momento de inicio programado
+SCHEDULED: <2015-02-20 Fri 15:15>
+
+*** La fecha puede ser una repetición
+SCHEDULED: <2015-02-16 Mon .+2d>
+
+** También se puede establecer un tiempo límite
+DEADLINE: <2015-02-20 Fri>
+
+** Se soportan los recordatorios para horas programadas y de tiempo límite
+
+Estan inhabilitadas por defecto y necesitan estar habilitadas en Configuración.
+
+** [#A] Una nota puede tener una prioridad
+
+Puedes cambiar el número de prioridades en Configuración. También puedes cambiar la prioridad por defecto - la prioridad asumida para notas sin una puesta.
+
+** Una nota puede incluir enlaces
+
+Marcar un número de teléfono (tel:555-0199), enviar SMS (sms:555-0199), componer un correo electrónico (mailto:support@orgzly.com) o visitar una página web ([[http://www.orgzly.com][Orgzly.com]]).
+
+También puede enlazar a otra nota o bloc de notas dentro de la aplicación.
+
+Consulte http://www.orgzly.com/help#links para obtener más información.
+
+** Están soportados formatos tipográficos básicos
+
+Puede escribir palabras en *negrita*, /itálica/, _subrayadas_, =cita literal=, ~código~ y +tachadas+.
+
+** Se pueden crear listas de verificación
+
+- [X] Tarea 1
+- [ ] Tarea 2
+- [ ] Tarea 3
+
+Pulsa la caja de verificación para alternar su estado. Pulsa el botón de nueva línea al final de la línea para crear un nuevo elemento.
+
+* Buscar
+** Existen muchos operadores de búsqueda soportados
+
+Puede buscar notas por estado, etiqueta, fecha de inicio, fecha límite, etc.
+
+Visite http://www.orgzly.com/help#search para aprender más.
+
+** Las consultas se pueden guardar como accesos rápidos
+
+Pruebe los ejemplos de búsqueda del cajón de navegación y observe las consultas que utilizan.
+
+Puede crear sus propias búsquedas y guardarlas haciendo clic en "Búsquedas" en el cajón de navegación.
+
+* Sincronizando
+
+** Los cuadernos pueden guardarse como archivos de texto plano
+
+Los archivos se guardan en el formato de "Org mode".
+
+** Tipo de ubicación (repositorio)
+
+Puede guardar cuadernos sincronizados en su dispositivo móvil, tarjeta SD o en Dropbox.
